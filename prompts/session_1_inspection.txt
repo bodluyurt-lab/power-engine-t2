@@ -1,0 +1,13 @@
+[OTURUM 1: İNCELEME, TERSİNE MÜHENDİSLİK VE KANIT TOPLAMA (REA / GHIDRA)]
+
+GÖREV:
+G*Power 3.1.9.7 (Windows) yazılımını tersine mühendislik yöntemleriyle (REA ve Ghidra) statik ve dinamik olarak inceleyiniz. 
+Hedef: "t tests -> Means: Difference between two independent means (two groups)" ailesinin hesaplama motorunu, durma koşullarını, kuyruk dönüşümlerini ve örneklem tamsayı yuvarlama kurallarını çözmek.
+
+KURALLAR:
+1. Temiz oda kuralı gereği bu oturumda KESİNLİKLE üretim kodu veya uygulama yazılmayacaktır.
+2. Yalnızca iki çıktı üretilecektir:
+   - LEDGER.md (Her iddiayı [REA], [DOK] veya [AJAN] etiketiyle listeleyen Kanıt Defteri)
+   - SPEC.md (Gherkin formatında kabul kriterleri ve matematiksel sözleşme)
+3. Her matematiksel iddia, GPowerNT.exe binary'sindeki fonksiyon adresi veya dize referansıyla belgelenmelidir.
+4. G*Power arayüzünden en az 30 adet doğrulama vektörü (ground truth) toplanarak oracle protokollerine işlenmelidir.

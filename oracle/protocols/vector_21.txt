@@ -1,0 +1,15 @@
+[21] -- Reference Protocol Ground Truth
+t tests - Means: Difference between two independent means (two groups)
+Analysis: A priori: Compute required sample size
+Input: Tail(s) = Two
+    Effect size d = 1.2
+    α err prob = 0.01
+    Power (1-β err prob) = 0.9
+    Allocation ratio N2/N1 = 1.0
+Output: Noncentrality parameter δ = 4.0693980
+    Critical t = 2.6922783
+    Df = 44
+    Sample size group 1 = 23
+    Sample size group 2 = 23
+    Total sample size = 46
+    Actual power = 0.9096072

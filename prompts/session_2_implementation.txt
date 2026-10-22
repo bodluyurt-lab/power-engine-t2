@@ -1,0 +1,11 @@
+[OTURUM 2: TEMİZ ODA YENİDEN YAZIM, CLI, MCP VE DİFERANSİYEL TEST (CLEAN-ROOM)]
+
+GÖREV:
+Elinizde Ghidra decompile çıktıları veya tersine mühendislik kodları KESİNLİKLE YOKTUR. Yalnızca SPEC.md şartnamesi ve LEDGER.md kanıt defterindeki kabul kriterlerini okuyarak, bağımsız iki grup t-testi hesaplama motorunu sıfırdan yeniden yazınız.
+
+HEDEFLER:
+1. Temiz oda kuralıyla Python üzerinde bağımsız istatistik motorunu (`src/engine.py`) kurunuz. A priori (N arama) ve Post hoc (güç hesaplama) modlarını uygulayınız.
+2. Sabit CLI sözleşmesine (`gpower-clone --test t2-indep ...`) tam uyumlu ve tek satır JSON üreten komut satırı arayüzünü (`src/cli.py`) oluşturunuz.
+3. Kâhin (Oracle) vektörleri üzerinde test koşarak N değerinde %100 tam eşleşme sağlayınız (Kapı şartı: en az %90).
+4. +15 puanlık MCP Sunucusu (`src/mcp_server.py`) ve +10 puanlık AI Klinik Ajanını (`src/agent.py`) inşa ediniz.
+5. Diferansiyel testlerle scipy/statsmodels ve G*Power arasındaki yuvarlama farklarını raporlayınız.
