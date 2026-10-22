@@ -138,7 +138,7 @@ pytest -v -s
 
 ## 7. Demo Video Linki ve Senaryosu (60 Saniye)
 
-* **Demo Video Linki:** `https://youtu.be/gpower-teardown-demo` *(Demo CLI ve MCP kaydı)*
+* **Demo Video Linki:** https://youtu.be/haWfRsW3flE?si=4ntvULn-nkb04ysr *(Canlı CLI, MCP ve AI Ajanı Demosu)*
 * **Video Akışı:**
   1. `00:00 - 00:15`: CLI üzerinden V1 ve yönergedeki örnek vektörün çalıştırılması, tek satır JSON çıktısının gösterilmesi.
   2. `00:15 - 00:30`: Pytest paketinin (47 test) koşturulması ve %100 Oracle eşleşmesinin gösterilmesi.
